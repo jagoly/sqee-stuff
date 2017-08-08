@@ -154,13 +154,12 @@ class SqExportMesh_operator(bpy.types.Operator, ExportHelper):
                     colour = round_vector(vcLayer[layerIndex].color, 5)
 
                 bones = [-1, -1, -1, -1]
-                weights = Vector(0.0, 0.0, 0.0, 0.0)
+                weights = [0.0, 0.0, 0.0, 0.0]
 
                 if sqm.hasBone: # bones / weights
                     for index, group in enumerate(v.groups):
                         bones[index] = boneIndices.index(group.group)
                         weights[index] = group.weight
-                    weights.normalize() # todo: make sure weights are also quantised
 
                 # key used to remove duplicate vertices
                 vertexKey = (position, texcrd, normal, tangent, colour)
