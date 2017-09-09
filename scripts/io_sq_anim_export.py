@@ -140,8 +140,8 @@ class SqExportAnim_operator(bpy.types.Operator, ExportHelper):
                 for bone in pose:
 
                     o.write("{0} {1} {2} ".format(*tidy_vector(bone.position, 5)))
-                    o.write("{1} {2} {3} {0} ".format(*tidy_vector(bone.rotation, 6)))
-                    o.write("{0} {1} {2}\n".format(*tidy_vector(bone.scale, 5)))
+                    o.write("{0} ".format(tidy_value(bone.scale.y, 5)))
+                    o.write("{1} {2} {3} {0}\n".format(*tidy_vector(bone.rotation, 6)))
 
         #----------------------------------------------------------#
 
