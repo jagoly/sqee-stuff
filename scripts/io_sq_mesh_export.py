@@ -7,8 +7,8 @@ from mathutils import Vector
 bl_info = {
     "name": "SQEE Mesh Exporter",
     "author": "James Gangur",
-    "version": (17, 1),
-    "blender": (2, 78, 0),
+    "version": (20, 6),
+    "blender": (2, 83, 0),
     "location": "File > Export > SQEE Mesh (.sqm)",
     "description": "Export a mesh in the SQEE format",
     "warning": "",
@@ -62,23 +62,25 @@ class SqExportMesh_operator(bpy.types.Operator, ExportHelper):
     bl_label = "Export SQEE Mesh"
 
     filename_ext = ".sqm"
-    filter_glob = bpy.props.StringProperty(default="*.sqm", options={'HIDDEN'})
+    
+    filter_glob: bpy.props.StringProperty(default="*.sqm", options={'HIDDEN'})
 
-    exportBounds = bpy.props.BoolProperty(name="Export Bounding Info", default=True)
+    exportBounds: bpy.props.BoolProperty(name="Export Bounding Info", default=True)
 
-    useTcrd = bpy.props.BoolProperty(name="Export Texture Coords",  default=True)
-    useNorm = bpy.props.BoolProperty(name="Export Vertex Normals",  default=True)
-    useTang = bpy.props.BoolProperty(name="Export Vertex Tangents", default=True)
-    useColr = bpy.props.BoolProperty(name="Export Vertex Colours",  default=False)
-    useBone = bpy.props.BoolProperty(name="Export Bones / Weights", default=False)
+    useTcrd: bpy.props.BoolProperty(name="Export Texture Coords",  default=True)
+    useNorm: bpy.props.BoolProperty(name="Export Vertex Normals",  default=True)
+    useTang: bpy.props.BoolProperty(name="Export Vertex Tangents", default=True)
+    useColr: bpy.props.BoolProperty(name="Export Vertex Colours",  default=False)
+    useBone: bpy.props.BoolProperty(name="Export Bones / Weights", default=False)
 
     #----------------------------------------------------------#
 
     def execute(self, context):
 
         obj = context.active_object
-        mesh = obj.to_mesh(context.scene, True, "RENDER")
-        vcLayer = uvLayer = arma = boneIndices = None
+        depsgraph = context.evaluated_depsgraph_get()
+        mesh = obj.evaluated_get(depsgraph).to_mesh()
+        vcLayer = uvLayer = arma = boneIndexMap = None
 
         sqm = SqeeMesh()
 
@@ -108,9 +110,13 @@ class SqExportMesh_operator(bpy.types.Operator, ExportHelper):
         sqm.subMeshList = list(map(SqeeSubMesh, mesh.materials.keys()))
         if not sqm.subMeshList: sqm.subMeshList = [SqeeSubMesh("Default")]
 
-        if sqm.hasBone == True: # compute sorted list of armature bones
-            keyList = [ (len(bone.parent_recursive), bone.name) for bone in arma.bones if bone.name[0] != '.' ]
-            boneIndices = sorted ( range(len(keyList)), key = lambda index: keyList[index] )
+        if sqm.hasBone == True: # compute mapping of mesh bone indices to armature bone indices
+            boneNames = sorted ( arma.bones, key = lambda bone: (len(bone.parent_recursive), bone.name) )
+            boneNames = [ bone.name for bone in boneNames if bone.name[0] != '.' ]
+            assert len(boneNames) == len(obj.vertex_groups), "wrong number of vertex groups in mesh"
+            print(boneNames)
+            print(obj.vertex_groups.keys())
+            boneIndexMap = [ boneNames.index(group) for group in obj.vertex_groups.keys() ]
 
         #----------------------------------------------------------#
 
@@ -158,7 +164,7 @@ class SqExportMesh_operator(bpy.types.Operator, ExportHelper):
 
                 if sqm.hasBone: # bones / weights
                     for index, group in enumerate(v.groups):
-                        bones[index] = boneIndices.index(group.group)
+                        bones[index] = boneIndexMap[group.group]
                         weights[index] = group.weight
 
                 # key used to remove duplicate vertices
@@ -274,14 +280,15 @@ def menu_func(self, context):
 
 def register():
     bpy.utils.register_class(SqExportMesh_operator)
-    bpy.types.INFO_MT_file_export.append(menu_func)
+    bpy.types.TOPBAR_MT_file_export.append(menu_func)
 
 def unregister():
     bpy.utils.unregister_class(SqExportMesh_operator)
-    bpy.types.INFO_MT_file_export.remove(menu_func)
+    bpy.types.TOPBAR_MT_file_export.remove(menu_func)
 
 #==============================================================================#
 
 if __name__ == "__main__":
     register()
     bpy.ops.sq.export_mesh_operator('INVOKE_DEFAULT')
+

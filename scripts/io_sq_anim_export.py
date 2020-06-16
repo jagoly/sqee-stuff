@@ -7,8 +7,8 @@ from mathutils import Vector
 bl_info = {
     "name": "SQEE Animation Exporter",
     "author": "James Gangur",
-    "version": (17, 1),
-    "blender": (2, 78, 0),
+    "version": (20, 6),
+    "blender": (2, 83, 0),
     "location": "File > Export > SQEE Animation (.txt)",
     "description": "Export an animation in the SQEE format",
     "warning": "",
@@ -56,9 +56,10 @@ class SqExportAnim_operator(bpy.types.Operator, ExportHelper):
     bl_label = "Export SQEE Animation"
 
     filename_ext = ".txt"
-    filter_glob = bpy.props.StringProperty(default="*.txt", options={'HIDDEN'})
+    
+    filter_glob: bpy.props.StringProperty(default="*.txt", options={'HIDDEN'})
 
-    finalTime = bpy.props.IntProperty(name="Final Keyframe Time", default=0)
+    ignoreLastFrame: bpy.props.BoolProperty(name="Ignore last keyframe, (for loop anims)", default=False)
     
     #----------------------------------------------------------#
 
@@ -66,7 +67,9 @@ class SqExportAnim_operator(bpy.types.Operator, ExportHelper):
 
         scene = bpy.context.scene
         obj = bpy.context.active_object
-
+        
+        action = obj.animation_data.action
+        
         anim = SqeeAnim()
 
         bpy.ops.screen.frame_jump()
@@ -83,15 +86,18 @@ class SqExportAnim_operator(bpy.types.Operator, ExportHelper):
 
             anim.poses.append([])
 
-            for bone in boneList:
+            for poseBone in boneList:
+                bone = poseBone.bone
+                
+                #print(bone.name, bone.parent.name if bone.parent else None)
 
                 anim.poses[-1].append(SqeeBone())
                 sqb = anim.poses[-1][-1]
-
-                mat = bone.matrix
-                if bone.parent is not None:
-                    mat = bone.parent.matrix.inverted() * mat
-
+                
+                mat = poseBone.matrix
+                if poseBone.parent and poseBone.parent.name[0] != '.':
+                    mat = poseBone.parent.matrix.inverted() @ mat
+                    
                 sqb.position = mat.to_translation()
                 sqb.rotation = mat.to_quaternion()
                 sqb.scale = mat.to_scale()
@@ -104,7 +110,10 @@ class SqExportAnim_operator(bpy.types.Operator, ExportHelper):
 
             anim.times.append(end - begin)
 
-        anim.times.append(self.finalTime)
+        if self.ignoreLastFrame == True:
+            anim.poses.pop()
+        else:
+            anim.times.append(0)
         
         #----------------------------------------------------------#
 
@@ -113,6 +122,8 @@ class SqExportAnim_operator(bpy.types.Operator, ExportHelper):
         anim.totalTime = sum(anim.times)
 
         #----------------------------------------------------------#
+
+        #print('exporting to:', self.filepath)
 
         with open(self.filepath, 'w', encoding='utf-8') as o:
 
@@ -164,11 +175,11 @@ def menu_func(self, context):
 
 def register():
     bpy.utils.register_class(SqExportAnim_operator)
-    bpy.types.INFO_MT_file_export.append(menu_func)
+    bpy.types.TOPBAR_MT_file_export.append(menu_func)
 
 def unregister():
     bpy.utils.unregister_class(SqExportAnim_operator)
-    bpy.types.INFO_MT_file_export.remove(menu_func)
+    bpy.types.TOPBAR_MT_file_export.remove(menu_func)
 
 #==============================================================================#
 
