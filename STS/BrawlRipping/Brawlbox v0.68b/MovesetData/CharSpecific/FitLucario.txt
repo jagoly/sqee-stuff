@@ -1,0 +1,366 @@
+ExtraParams0
+ExtraParams0
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+*0x10
+No Description Available.
+1
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+ExtraParams1
+ExtraParams1
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+
+ExtraParams2
+Aura physics (plus unknown?)
+0x0
+Aura floor multiplier
+0
+
+0x4
+Aura ceiling multiplier
+0
+
+0x8
+Aura floor percentage
+0
+
+0xC
+Aura baseline percentage
+0
+
+0x10
+Aura ceiling percentage
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+ExtraParams3
+Force Palm
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+Grounded X offset
+0
+
+0xC
+Grounded Y offset
+0
+
+0x10
+Aerial X offset
+0
+
+0x14
+Aerial Y offset
+0
+
+
+ExtraParams4
+Extreme Speed
+0x0
+?? (read on startup)
+0
+
+0x4
+Something about aerial momentum preservation?
+0
+
+0x8
+Vertical momentum on aerial startup
+0
+
+0xC
+?? (read on travel)
+0
+
+0x10
+Default angle
+0
+
+0x14
+Speed
+0
+
+0x18
+Turning
+0
+
+0x1C
+?? (something with the angle required to bounce off wall?)
+0
+
+*0x20
+Distance in frames
+1
+
+0x24
+Air friction or max speed to stop at?
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+?? (read on end)
+0
+
+*0x34
+?? (read on end)
+1
+
+0x38
+Horizontal momentum on angled travel landing
+0
+
+*0x3C
+No Description Available.
+1
+
+
+ExtraParams5
+Double Team
+0x0
+Momentum preservation
+0
+
+0x4
+?? (read on startup)
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+Frames duration for dogde before hitbox action occurs
+1
+
+0x10
+How far away from start attack occurs (in units)
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+Attack kick duration
+1
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams6
+Aura Storm
+0x0
+Rising speed
+0
+
+0x4
+Max turning angle
+0
+
+0x8
+turning speed
+0
+
+*0xC
+No Description Available.
+1
+
+
+ExtraParams7
+ExtraParams7
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams8
+ExtraParams8
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+
+ArticleType1_9
+Aura Sphere Attribute
+*0x0
+Aura sphere lifetime
+1
+
+*0x4
+Firing angle (radians)
+1
+
+0x8
+Uncharged speed
+0
+
+0xC
+Fully charged speed (also added on to slightly charged)
+0
+
+*0x10
+Frames between wiggling
+1
+
+0x14
+Uncharged Aura Sphere wiggle intensity
+0
+
+0x18
+Uncharged Aura Sphere wiggle decrease?
+0
+
+*0x1C
+Something with wiggling distance/rotation
+1
+
+0x20
+Aura Sphere base growth size (smaller = bigger)
+0
+
+0x24
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x28
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x2C
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x30
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x34
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x38
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x3C
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x40
+Aura Sphere size table (bigger = bigger, will automatically scale to base size after being charged a bit)
+0
+
+0x44
+Unknown. Probably has something to do with aura sphere damage/stock growth
+0
+
+

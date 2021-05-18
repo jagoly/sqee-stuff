@@ -1,0 +1,288 @@
+ExtraParams0
+Blaster
+0x0
+X offset grounded laser
+0
+
+0x4
+Y offset grounded laser
+0
+
+0x8
+X offset aerial laser
+0
+
+0xC
+Y offset aerial laser
+0
+
+*0x10
+Angle laser is fired at (degrees)
+1
+
+0x14
+Laser speed
+0
+
+*0x18
+Landing lag?
+1
+
+
+ExtraParams1
+Wolf Flash
+*0x0
+?? (read on startup)
+1
+
+0x4
+?? (read on startup)
+0
+
+0x8
+Horizontal momentum preservation? (lower = more)
+0
+
+0xC
+Vertical momentum on aerial startup?
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+*0x20
+No Description Available.
+1
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+*0x2C
+No Description Available.
+1
+
+
+ExtraParams2
+Fire Wolf
+*0x0
+No Description Available.
+1
+
+0x4
+?? (read on startup)
+0
+
+0x8
+?? (read on aerial startup)
+0
+
+0xC
+Vertical momentum on aerial startup
+0
+
+0x10
+Something with input?
+0
+
+0x14
+Default angle no input? (radians)
+0
+
+*0x18
+How many frames before you stay in place during upB kick?
+1
+
+*0x1C
+Frame count for something? (read on travel)
+1
+
+*0x20
+Travel distance (frames)
+1
+
+0x24
+Travel speed (affects distance)
+0
+
+0x28
+Momentum preservation at end of upB
+0
+
+0x2C
+?? (read at end of upB)
+0
+
+0x30
+Something to do with angle when hitting ground?
+0
+
+0x34
+How far you go when hitting ground angled
+0
+
+0x38
+Special fall aerial mobility
+0
+
+*0x3C
+Landing lag (frames)
+1
+
+
+ExtraParams3
+Reflector
+*0x0
+No Description Available.
+1
+
+*0x4
+Frames before 0xC takes effect
+1
+
+0x8
+Momentum preservation (lower = more momentum preserved)
+0
+
+0xC
+Aerial momentum downward (applies to startup and holding)
+0
+
+
+ExtraParams4
+Landmaster
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+
+ExtraParams5
+ExtraParams5
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+*0x10
+No Description Available.
+1
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ExtraParams6
+ExtraParams6
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+
+ArticleType1_8
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_9
+Laser Attribute
+*0x0
+No Description Available.
+1
+
+0x4
+Laser Length
+0
+
+0x8
+Laser lengthening time? (higher = slower)
+0
+
+
+ArticleType1_10
+Wolf Flash Attribute
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+
+ArticleType1_11
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_12
+Parameters
+*0x0
+No Description Available.
+1
+
+

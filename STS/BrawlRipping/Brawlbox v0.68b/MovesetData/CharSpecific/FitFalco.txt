@@ -1,0 +1,257 @@
+ExtraParams0
+Laser
+0x0
+X offset grounded laser
+0
+
+0x4
+Y offset grounded laser
+0
+
+0x8
+X offset aerial laser
+0
+
+0xC
+Y offset aerial laser
+0
+
+*0x10
+Angle laser is fired at (degrees)
+1
+
+0x14
+Laser speed
+0
+
+*0x18
+Landing lag?
+1
+
+
+ExtraParams1
+Phantasm
+*0x0
+?? (something with timing short distance?)
+1
+
+0x4
+Grounded momentum preservation on startup (higher = less, avoid 0 will cause polygon explosions at random)
+0
+
+0x8
+Aerial momentum preservation on startup? (higher = less, barely noticeable) 
+0
+
+0xC
+Aerial vertical momentum on startup
+0
+
+0x10
+Affects grounded momentum preservation at end? (higher = less) 
+0
+
+0x14
+Grounded momentum preservation at end (less = more) 
+0
+
+0x18
+Affects aerial momentum preservation at end (higher = less) 
+0
+
+0x1C
+Aerial momentum preservation at end (less = more) 
+0
+
+*0x20
+?? (read on sideB moving) 
+1
+
+0x24
+Affects shortened sideB?
+0
+
+0x28
+?? (read on sideB moving) 
+0
+
+*0x2C
+?? (read on sideB moving) 
+1
+
+
+ExtraParams2
+Fire Bird
+*0x0
+Frame count for something? (read on startup) 
+1
+
+0x4
+?? (read on startup)
+0
+
+0x8
+Aerial momentum preservation on startup (smaller = more)
+0
+
+0xC
+Momentum on startup?
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+Default angle? (radians)
+0
+
+*0x18
+How many frames before you stop travelling (does not affect distance past a certain point)
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+Something with distance?
+1
+
+0x24
+Speed of travel/distance travelled
+0
+
+0x28
+Max momentum at stop at
+0
+
+0x2C
+?? (read on travel)
+0
+
+0x30
+Something to do with angle when hitting ground?
+0
+
+0x34
+How far you go then hitting ground angle
+0
+
+0x38
+Special fall aerial mobility
+0
+
+*0x3C
+Landing lag (frames)
+1
+
+
+ExtraParams3
+ExtraParams3
+*0x0
+No Description Available.
+1
+
+
+ExtraParams4
+Landmaster
+0x0
+Rising speed
+0
+
+*0x4
+How many frames after rising you fall with landmaster (0 makes you never come back down)
+1
+
+
+ExtraParams5
+Reflector
+*0x0
+No Description Available.
+1
+
+0x4
+Break threshold?
+0
+
+0x8
+Reflection bubble X pos?
+0
+
+0xC
+Reflection bubble Y pos?
+0
+
+*0x10
+Reflection bubble Z pos?
+1
+
+0x14
+Reflection bubble size
+0
+
+0x18
+Reflected projectile damage multiplier
+0
+
+0x1C
+Reflected projectile speed multiplier
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ArticleType1_6
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_7
+Laser Attributes
+*0x0
+Laser lifetime (frames)
+1
+
+0x4
+Laser length
+0
+
+0x8
+Laser thengthening time? (higher = slower(
+0
+
+
+ArticleType1_8
+Phantasm Attributes
+*0x0
+How many frames illusion GFX stays out
+1
+
+*0x4
+How many frames before illuson gfx slows down
+1
+
+
+ArticleType1_9
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_10
+Parameters
+*0x0
+No Description Available.
+1
+
+

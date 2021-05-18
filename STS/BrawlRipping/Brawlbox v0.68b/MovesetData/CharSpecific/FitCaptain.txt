@@ -1,0 +1,186 @@
+paramFalconPunch__13ftCaptainNode
+Falcon Punch
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+Momentum forward
+0
+
+0x10
+Momentum from holding up
+0
+
+*0x14
+No Description Available.
+1
+
+
+paramFalconKnuckle__13ftCaptainNode
+Raptor Boost
+0x0
+Horizontal momentum on hit (negative is equivalent of 0)
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+Landing lag from aerial hit
+0
+
+*0x14
+No Description Available.
+1
+
+
+paramSpecialHi__13ftCaptainNode
+Falcon Dive
+0x0
+How much you slide on ground aiming upB
+0
+
+0x4
+Something with mobility in aiming?
+0
+
+0x8
+Mobility
+0
+
+0xC
+Something with mobility in aiming?
+0
+
+0x10
+?? (read during upB on ground)
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+paramFalconKick__13ftCaptainNode
+Falcon Kick
+0x0
+No Description Available.
+0
+
+0x4
+Momentum multiplier on hit
+0
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+*0x1C
+No Description Available.
+1
+
+
+paramBlueFalcon__13ftCaptainNode
+Blue Falcon
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+
+ExtraParams5
+ExtraParams5
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+

@@ -1,0 +1,321 @@
+ExtraParams0
+Arrows
+0x0
+More velocity with lower value, ONLY affects charges arrows
+0
+
+0x4
+No Description Available.
+0
+
+*0x8
+No Description Available.
+1
+
+0xC
+Firing angle (radians)
+0
+
+
+ExtraParams1
+ExtraParams1
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+
+ExtraParams2
+Spin Attack
+0x0
+vertical height
+0
+
+0x4
+Gravity
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+Aerial mobility during aerial upB
+0
+
+*0x14
+Landing lag?
+1
+
+
+ExtraParams3
+Gale Boomerang
+0x0
+Something to do with boomerang angle... Anything above 1=cant angle boomerang
+0
+
+0x4
+Angle of upward/downward boomerang throw (radians)
+0
+
+
+ExtraParams4
+Triforce Slash
+0x0
+?? (read on successful hit)
+0
+
+0x4
+Range
+0
+
+*0x8
+How many frames after successful hit he travels to opponent
+1
+
+0xC
+Travel speed
+0
+
+*0x10
+?? (read on successful hit)
+1
+
+0x14
+?? (read on successful hit)
+0
+
+
+ExtraParams5
+ExtraParams5
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+
+ExtraParams6
+ExtraParams6
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+
+ExtraParams7
+ExtraParams7
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+ArticleType1_11
+Boomerang Attribute
+0x0
+Boomerang vertical offset -16=Higher, hits floor sooner than it should
+0
+
+*0x4
+Duration of short rang (frames)
+1
+
+*0x8
+Duration of long rang (frames)
+1
+
+0xC
+Short rang start velocity
+0
+
+0x10
+Long rang start velocity
+0
+
+0x14
+Rotation of the actual rang
+0
+
+0x18
+Rotation of the actual rang
+0
+
+0x1C
+Rang Decceleration/Resistance
+0
+
+0x20
+Returning rang Velocity
+0
+
+0x24
+Higher makes the 'rang reverse direction quicker and sharply, Lower makes the turnaround slower
+0
+
+0x28
+Unknown. Seems to VERY slightly do something near the turnaround point
+0
+
+0x2C
+Boomerang Homing. Higher value = better homing to link
+0
+
+0x30
+No Description Available.
+0
+
+*0x34
+Something to do with returning rang homing...lowering makes it stop homing after awhile
+1
+
+*0x38
+Unknown. Freezes if too high, right near turnaround point
+1
+
+0x3C
+X-offset of when Boomerang is catchable. Higher values=Boomerang is caught further in front of Link. 0=Your own personal tornado.
+0
+
+0x40
+No Description Available.
+0
+
+0x44
+No Description Available.
+0
+
+*0x48
+No Description Available.
+1
+
+*0x4C
+No Description Available.
+1
+
+*0x50
+No Description Available.
+1
+
+*0x54
+No Description Available.
+1
+
+
+ArticleType1_15
+Arrows Attribute
+0x0
+No Description Available.
+0
+
+*0x4
+Duration (frames after stage impact?)
+1
+
+0x8
+Uncharged Arrow Velocity Multiplier
+0
+
+0xC
+Charge Arrow Velocity Multiplier
+0
+
+0x10
+Uncharged Arrow Damage
+0
+
+0x14
+Full Charge Arrow Damage
+0
+
+*0x18
+Frames to fully charge?
+1
+
+0x1C
+Arrow gravity
+0
+
+0x20
+Arrow weight
+0
+
+*0x24
+No Description Available.
+1
+
+
+ArticleType1_16
+Parameters
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+

@@ -1,0 +1,261 @@
+ExtraParams0
+Chomp
+*0x0
+How many frames after releasing B he bites
+1
+
+*0x4
+Max frames you can hold bite
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ExtraParams1
+Bike
+0x0
+Starting gravity?
+0
+
+0x4
+?? (read on aerial start)
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+Jumping off bike horizontal momentum
+0
+
+0x14
+Jumping off bike vertical momentum
+0
+
+*0x18
+How long after bike is gone you have to wait to do sideB again
+1
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams2
+Corkscrew
+0x0
+Startup horizontal momentum multiplier
+0
+
+0x4
+Startup vertical momentum
+0
+
+0x8
+Something with vertical momentum when using horizontal moment (larger = less height)
+0
+
+0xC
+Something with horizontal joystick threshold for reversal?
+0
+
+0x10
+Horizontal movement during jump
+0
+
+0x14
+Horizontal momentum added to end of corkscrew
+0
+
+0x18
+Vertical momentum subtracted from end of corkscrew
+0
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams3
+Wario Waft
+*0x0
+Seconds to fully charge
+1
+
+*0x4
+Seconds to reach charge level one
+1
+
+*0x8
+Seconds to reach charge level two
+1
+
+0xC
+Charge level one damage multiplier (at the point just before level two begins)
+0
+
+0x10
+Charge level two damage multiplier (at the point just before level three begins)
+0
+
+0x14
+Vertical momentum (level two)?
+0
+
+0x18
+Vertical momentum (level three)?
+0
+
+0x1C
+Vertical momentum (level four?)
+0
+
+
+ExtraParams6
+ExtraParams6
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+ExtraParams8
+ExtraParams8
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+
+ExtraParams9
+ExtraParams9
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+*0x28
+No Description Available.
+1
+
+*0x2C
+No Description Available.
+1
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+*0x38
+No Description Available.
+1
+
+*0x3C
+No Description Available.
+1
+
+

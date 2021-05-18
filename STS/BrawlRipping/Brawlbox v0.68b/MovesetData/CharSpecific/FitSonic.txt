@@ -1,0 +1,400 @@
+paramSpecialN__11ftSonicNode
+Homing Attack
+0x0
+Initial Vertical Velocity on Charge
+0
+
+0x4
+Momentous Growth on Aerial Charge
+0
+
+0x8
+Momentum Conservatism (Set to 2, it will multiply current momentum by 2. Set to 0.5, current momentum will be halved. Etc.)
+0
+
+*0xC
+Minimum startup
+1
+
+*0x10
+Maximum startup
+1
+
+0x14
+Maximum Curve. Lower number = smaller curves
+0
+
+0x18
+Homing Intensity. Lower number = better homing.
+0
+
+0x1C
+Homing Wind Resistance. (Higher number = travel slower, and cancel before you reach your target if too high.)
+0
+
+0x20
+Homing Dash Acceleration
+0
+
+0x24
+Homing Dash Deceleration
+0
+
+0x28
+No Description Available.
+0
+
+*0x2C
+Homing Dash Duration (Frames?)
+1
+
+0x30
+Floor-bounce H Velocity
+0
+
+0x34
+Floor-bounce V Velocity?
+0
+
+0x38
+Floor-bounce V Velocity... Again?
+0
+
+0x3C
+Person-bounce Aerial Mobility
+0
+
+0x40
+Person-bounce V Velocity
+0
+
+0x44
+Person-bounce H Deceleration Rate?
+0
+
+*0x48
+Person-bounce Fallspeed?
+1
+
+0x4C
+No-homing dash angle (Degrees)
+0
+
+0x50
+No-homing dash speed
+0
+
+*0x54
+No-homing dash duration
+1
+
+0x58
+No Description Available.
+0
+
+*0x5C
+No-homing dash duration again?
+1
+
+
+paramSpecialS__11ftSonicNode
+Spin Dash
+*0x0
+How many frames after charge you do spin dash
+1
+
+*0x4
+Frame count for something? (read on startup)
+1
+
+0x8
+Momentum during charge on ground
+0
+
+0xC
+Angle of jump?
+0
+
+0x10
+Something with angle of jump and movement speed
+0
+
+0x14
+Angle of jump?
+0
+
+0x18
+ ?? (read on jump)
+0
+
+0x1C
+Height of jump
+0
+
+0x20
+Friction?
+0
+
+0x24
+?? (read on jump, affects angle)
+0
+
+0x28
+Speed
+0
+
+0x2C
+?? (read on jump, affects angle)
+0
+
+*0x30
+How long you can move around (in frames)
+1
+
+0x34
+Aerial mobility
+0
+
+0x38
+?? (read on jump)
+0
+
+0x3C
+?? (read on jump)
+0
+
+0x40
+?? (read on turn/land on ground)
+0
+
+0x44
+Damage multiplier after hitting ground
+0
+
+0x48
+Damage multiplier before hitting ground
+0
+
+0x4C
+Skidding friction
+0
+
+0x50
+Skidding friction?
+0
+
+0x54
+No Description Available.
+0
+
+0x58
+No Description Available.
+0
+
+0x5C
+No Description Available.
+0
+
+0x60
+No Description Available.
+0
+
+0x64
+No Description Available.
+0
+
+0x68
+No Description Available.
+0
+
+*0x6C
+No Description Available.
+1
+
+0x70
+No Description Available.
+0
+
+0x74
+No Description Available.
+0
+
+0x78
+No Description Available.
+0
+
+0x7C
+No Description Available.
+0
+
+
+paramSpecialHi__11ftSonicNode
+paramSpecialHi__11ftSonicNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+paramSpecialLw__11ftSonicNode
+paramSpecialLw__11ftSonicNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+*0x20
+No Description Available.
+1
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+*0x2C
+No Description Available.
+1
+
+
+paramSpinJump__11ftSonicNode
+paramSpinJump__11ftSonicNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+
+paramDash__11ftSonicNode
+paramDash__11ftSonicNode
+0x0
+No Description Available.
+0
+
+
+ArticleType1_6
+Spring Attribute
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+0x8
+Sonic Spring Initial Height (How high off of the ground foes are when they start their 'i just bounced off of this' animation)
+0
+
+0xC
+Sonic Spring Duration (Frames)
+0
+
+*0x10
+No Description Available.
+1
+
+0x14
+Sonic Spring Fallspeed
+0
+
+0x18
+Same as 0x8?
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+*0x2C
+No Description Available.
+1
+
+
+ArticleType1_7
+Data3
+*0x0
+No Description Available.
+1
+
+

@@ -1,0 +1,397 @@
+ExtraParams0
+Power Shot
+*0x0
+Charge time. Higher value = slower charge. Unsure of ratio
+1
+
+0x4
+Recoil from charged power shot (air only). Negative values send you backward, positive send you forward.
+0
+
+0x8
+Frames between change in charge level?
+0
+
+*0xC
+No Description Available.
+1
+
+
+ExtraParams1
+Screw Attack
+0x0
+Horizontal momentum added with no control
+0
+
+0x4
+Horizontal control
+0
+
+0x8
+Air friction
+0
+
+0xC
+Vertical height (grounded doesn't seem affected)
+0
+
+0x10
+?? (read on startup)
+0
+
+0x14
+?? (read on startup)
+0
+
+0x18
+Landing lag (higher = more)
+0
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams2
+Bomb
+0x0
+Vertical momentum grounded bomb
+0
+
+0x4
+Vertical momentum aerial bomb
+0
+
+0x8
+Grounded mobility
+0
+
+0xC
+Aerial mobility
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+Grounded momentum preservation
+0
+
+0x1C
+Aerial momentum preservation
+0
+
+*0x20
+X offset
+1
+
+0x24
+Y offset
+0
+
+*0x28
+Z offset
+1
+
+0x2C
+No Description Available.
+0
+
+*0x30
+Frame count for something? (read on bomb explosion)
+1
+
+0x34
+Angle you are sent at from bomb explosion from side (radians)
+0
+
+0x38
+Vertical momentum from bomb explosion
+0
+
+0x3C
+No Description Available.
+0
+
+0x40
+No Description Available.
+0
+
+0x44
+No Description Available.
+0
+
+0x48
+?? (read on bomb lay)
+0
+
+
+ExtraParams3
+Missile
+*0x0
+Possibly maximum number of homing missiles that can be fired?
+1
+
+0x4
+Traction - The lower the value, the more momentum Samus gets going sideways when using a missile.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+X-offset of missile launch.
+0
+
+
+ExtraParams4
+Zero Laser?
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams5
+ExtraParams5
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+
+ExtraParams6
+ExtraParams6
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_8
+Parameters
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+ArticleType1_10
+Parameters
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+
+ArticleType1_12
+Parameters
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ArticleType1_14
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_16
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_18
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_20
+Missile Attribute
+*0x0
+??
+1
+
+*0x4
+Super Missile duration(Frames)
+1
+
+*0x8
+Super Missile acceleration point(Frames). This is the point where the super missle speeds up.
+1
+
+0xC
+Super Missile initial velocity.
+0
+
+0x10
+Super Missile acceleration.
+0
+
+0x14
+Super Missile final speed?
+0
+
+
+ArticleType1_21
+Parameters
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+

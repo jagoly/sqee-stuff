@@ -1,0 +1,362 @@
+ExtraParams0
+Giant Punch
+*0x0
+How many arm swings to fully charge
+1
+
+*0x4
+Damage per arm swing (first arm swing has no effect)
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+
+ExtraParams1
+Headbutt
+0x0
+Something with momentum preservation?
+0
+
+0x4
+Horizontal momentum preservation (lower = more)
+0
+
+0x8
+Vertical momentum on headbutt
+0
+
+*0xC
+No Description Available.
+1
+
+
+ExtraParams2
+Spinning Kong
+*0x0
+No Description Available.
+1
+
+0x4
+Aerial vertical momentum
+0
+
+0x8
+Gravity
+0
+
+0xC
+Grounded air resistance?
+0
+
+0x10
+Aerial air resistance?
+0
+
+0x14
+Grounded mobility
+0
+
+0x18
+Aerial mobility
+0
+
+0x1C
+?? (read on aerial startup)
+0
+
+
+ExtraParams3
+Hand Slap
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+
+ExtraParams4
+Konga Beat
+*0x0
+Something with rapid beats?
+1
+
+0x4
+?? (Freezes if too low)
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+*0x38
+No Description Available.
+1
+
+*0x3C
+No Description Available.
+1
+
+*0x40
+No Description Available.
+1
+
+*0x44
+No Description Available.
+1
+
+*0x48
+No Description Available.
+1
+
+*0x4C
+No Description Available.
+1
+
+*0x50
+No Description Available.
+1
+
+*0x54
+No Description Available.
+1
+
+
+ExtraParams7
+ExtraParams7
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+*0x28
+No Description Available.
+1
+
+0x2C
+No Description Available.
+0
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+*0x38
+No Description Available.
+1
+
+*0x3C
+No Description Available.
+1
+
+*0x40
+No Description Available.
+1
+
+*0x44
+No Description Available.
+1
+
+*0x48
+No Description Available.
+1
+
+0x4C
+No Description Available.
+0
+
+*0x50
+No Description Available.
+1
+
+*0x54
+No Description Available.
+1
+
+*0x58
+No Description Available.
+1
+
+*0x5C
+No Description Available.
+1
+
+*0x60
+No Description Available.
+1
+
+*0x64
+No Description Available.
+1
+
+*0x68
+No Description Available.
+1
+
+0x6C
+No Description Available.
+0
+
+*0x70
+No Description Available.
+1
+
+*0x74
+No Description Available.
+1
+
+*0x78
+No Description Available.
+1
+
+*0x7C
+No Description Available.
+1
+
+*0x80
+No Description Available.
+1
+
+*0x84
+No Description Available.
+1
+
+*0x88
+No Description Available.
+1
+
+0x8C
+No Description Available.
+0
+
+*0x90
+No Description Available.
+1
+
+*0x94
+No Description Available.
+1
+
+*0x98
+No Description Available.
+1
+
+*0x9C
+No Description Available.
+1
+
+*0xA0
+No Description Available.
+1
+
+*0xA4
+No Description Available.
+1
+
+*0xA8
+No Description Available.
+1
+
+0xAC
+No Description Available.
+0
+
+

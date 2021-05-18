@@ -1,0 +1,37 @@
+==== Guide to ripping effects from Brawl ====
+
+create dir with name of effect, all exports except textures go here
+
+brawlcrate:
+  open effect model in brawlcrate
+  clear all bone transforms for model
+  export model as dae
+  re-open file to revert changes
+  export model as mdl0
+  export chr0 as maya anim
+  export textures as pngs to Fighter/textures/effects
+  
+create clr.txt file manually
+  copy paste values from clr0 anim in brawlcrate
+  order should be by bones, not by material
+  merge in visibility anim by setting some alpha values to 0
+  check the materials in brawlcrate to find constant colour value
+  can leave in all of the extra frames
+
+blender:
+  open new blender window
+  import dae, everything unchecked
+  set armature z rot to 180
+  change armature scale 0.01 -> 0.1
+  edit bones, snap all to zero (cursor)
+  import brawlbox anim, check import clr.txt
+  delete frames after the point where nothing is visible
+  set arma to rest position
+  apply rot+scale to everything
+  rename every mesh uv map to the same thing (dbl click bkspc enter)
+  select every mesh, join with ctrl-j
+  set arma to pose position
+  replace images with the ones in textures/effects
+
+manually create Render.json
+  easiest way is to just copy names of textures/materials in blender

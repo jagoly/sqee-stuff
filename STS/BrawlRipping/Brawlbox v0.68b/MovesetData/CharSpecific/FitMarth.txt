@@ -1,0 +1,194 @@
+paramMarthSpecialN__11ftMarthNode
+Shield Breaker
+*0x0
+Charge time (seconds?)
+1
+
+*0x4
+Base damage
+1
+
+*0x8
+Damage per second of charge?
+1
+
+0xC
+Aerial horizontal momentum ratio
+0
+
+0x10
+Aerial horizontal deceleration
+0
+
+*0x14
+Unknown, read once on initial pullback
+1
+
+
+paramMarthSpecialS__11ftMarthNode
+Dancing Blade
+0x0
+Aerial horizontal momentum ratio
+0
+
+0x4
+unknown, read once on first aerial startup
+0
+
+0x8
+Aerial vertical boost
+0
+
+0xC
+unknown, read once on first aerial startup
+0
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+
+paramMarthSpecialHi__11ftMarthNode
+Dolphin Slash
+0x0
+Max horizontal air movement in helpless falling (may transition to automatically)
+0
+
+0x4
+Landing lag (frames)
+0
+
+0x8
+unknown, read several times pre-jump
+0
+
+0xC
+unknown, read throughout entire move
+0
+
+0x10
+directionalization distance (displacement, not angle)
+0
+
+0x14
+Directionalized pre-jump displacement (has a low max)
+0
+
+0x18
+Aerial jump height ratio (relative ground version)
+0
+
+0x1C
+Post-jump gravity
+0
+
+0x20
+Post jump max fall speed
+0
+
+*0x24
+unknown, read once post-jump
+1
+
+
+paramMarthSpecialLw__11ftMarthNode
+Counter
+0x0
+Aerial horizontal momentum ratio
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+Counter gravity
+0
+
+0xC
+Counter max fall speed
+0
+
+0x10
+Damage multiplier
+0
+
+0x14
+unknown, read on activation
+0
+
+*0x18
+Freeze frames on activation
+1
+
+0x1C
+Minimum damage
+0
+
+0x20
+Maximum damage
+0
+
+0x24
+unknown, read on activation
+0
+
+
+paramMarthSpecialLwShield__11ftMarthNode
+paramMarthSpecialLwShield__11ftMarthNode
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+
+paramMarthFinal__11ftMarthNode
+paramMarthFinal__11ftMarthNode
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+

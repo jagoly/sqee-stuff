@@ -1,0 +1,339 @@
+ExtraParams0
+Thunder Jolt
+0x0
+Grounded X offset
+0
+
+0x4
+Grounded Y offset
+0
+
+0x8
+Aerial X offset
+0
+
+0xC
+Aerial Y offset
+0
+
+*0x10
+?? (read on startup)
+1
+
+
+ExtraParams1
+Skull Bash
+0x0
+?? (read on startup)
+0
+
+0x4
+?? (read on startup)
+0
+
+0x8
+Charge time (frames)
+0
+
+0xC
+Base damage
+0
+
+0x10
+Damage multiplier
+0
+
+0x14
+?? (read on fire)
+0
+
+0x18
+?? (read on air startup)
+0
+
+0x1C
+Falling speed
+0
+
+0x20
+Base horizontal firing momentum
+0
+
+0x24
+Horizontal momentum multiplier
+0
+
+0x28
+Base vertical firing momentum
+0
+
+0x2C
+Vertical momentum multiplier
+0
+
+0x30
+?? (read on firing)
+0
+
+0x34
+Aerial stopping velocity
+0
+
+0x38
+?? (read on aerial end)
+0
+
+0x3C
+?? (read on aerial end)
+0
+
+*0x40
+No Description Available.
+1
+
+*0x44
+No Description Available.
+1
+
+
+ExtraParams2
+Quick Attack
+*0x0
+?? (read on startup)
+1
+
+*0x4
+Length
+1
+
+0x8
+?? (read on travel)
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+No Description Available.
+0
+
+0x3C
+No Description Available.
+0
+
+0x40
+No Description Available.
+0
+
+*0x44
+No Description Available.
+1
+
+0x48
+No Description Available.
+0
+
+*0x4C
+Minimun direction change (degrees) for second segment
+1
+
+0x50
+No Description Available.
+0
+
+0x54
+No Description Available.
+0
+
+
+ExtraParams3
+Thunder
+0x0
+Height of thunder creation
+0
+
+0x4
+Something to do with landing detection when missing pika
+0
+
+0x8
+Vertical momentum on aerial thunder hit
+0
+
+0xC
+Air friction on aerial thunder hit?
+0
+
+
+ExtraParams4
+ExtraParams4
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+
+ArticleType1_5
+Thunder Jolt Attribute
+*0x0
+Lifetime (frames)
+1
+
+0x4
+Aerial jolt angle (radians)
+0
+
+0x8
+Aerial jolt velocity
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+
+ArticleType1_6
+Thunder Jolt 2? Attribute
+*0x0
+Lifetime (frames)
+1
+
+0x4
+Aerial jolt angle (radian)
+0
+
+0x8
+Aerialjolt velocity
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+
+ArticleType1_7
+Thunder Attribute
+0x0
+Area of effect for behing hit from your thunder
+0
+
+0x4
+Thunder travel speed
+0
+
+0x8
+Thunder lifetime (frames)
+0
+
+*0xC
+No Description Available.
+1
+
+
+ArticleType1_9
+Volt Tackle Attribute
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+*0x20
+No Description Available.
+1
+
+

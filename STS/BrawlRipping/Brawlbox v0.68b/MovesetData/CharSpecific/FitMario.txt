@@ -1,0 +1,245 @@
+ExtraParams0
+Super Jump Punch
+0x0
+Joystick backward sensitivity?
+0
+
+0x4
+Joystick forward sensitivity?
+0
+
+0x8
+Affects travel direction and mobility?
+0
+
+0xC
+Special fall aerial mobility
+0
+
+0x10
+Unknown (read on upB?)
+0
+
+
+ExtraParams1
+ExtraParams1
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+
+ExtraParams2
+Cape
+0x0
+Horizontal momentum from moving left/right (smaller = more)
+0
+
+0x4
+affects vertical momentum?
+0
+
+0x8
+Vertical momentum
+0
+
+0xC
+Vertical momentum from moving left/right
+0
+
+0x10
+Unknown (read on caping in air)
+0
+
+*0x14
+Unknown (read on caping in air)
+1
+
+
+ExtraParams3
+FLUDD
+*0x0
+Frames to fully charge
+1
+
+0x4
+Unknown (read on firing)
+0
+
+*0x8
+Unknown (read on firing)
+1
+
+0xC
+Momentum backward when firing (affects aerial too)
+0
+
+*0x10
+How many frames FLUDD stays out during/after downB
+1
+
+
+ExtraParams4
+ExtraParams4
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+*0x10
+No Description Available.
+1
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ExtraParams11
+ExtraParams11
+
+ArticleType1_6
+Fireball Attribute
+0x0
+Fireball gravity
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+Fireball bounce velocity multiplier
+0
+
+0xC
+Initial speed
+0
+
+0x10
+Initial angle (radians)
+0
+
+*0x14
+Duration (frames)
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+Something to do with how many times it can bounce before disappearing. 2 = none, 4 = too many to count.
+0
+
+
+ArticleType1_7
+Fludd Attribute
+0x0
+Initial angle (degrees)
+0
+
+0x4
+Max upward angle (degrees)
+0
+
+0x8
+Max downward angle? (degrees)
+0
+
+0xC
+Response to angling (also affects going back to center)
+0
+
+0x10
+Relates to offsets? (at 100 they are really far up from mario and spaced out)
+0
+
+
+ArticleType1_8
+Fludd Water Attribute
+0x0
+Water speed multiplier/knockback multiplier?
+0
+
+0x4
+Water speed base
+0
+
+0x8
+Water gravity
+0
+
+0xC
+Unknown (read on firing)
+0
+
+*0x10
+How many frames water stays out (does not affect gfx past a certain point)
+1
+
+0x14
+Water gfx size
+0
+
+0x18
+Water gfx size multiplier (gfx get larger further they go)
+0
+
+*0x1C
+Water pushback
+1
+
+
+ArticleType1_9
+Parameters
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+
+ArticleType2_Entry
+Data3
+*0x0
+No Description Available.
+1
+
+

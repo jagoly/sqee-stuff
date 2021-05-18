@@ -1,0 +1,248 @@
+paramSpecialN__11ftPeachNode
+Toad
+0x0
+Horizontal braking speed (Peach continues moving horizontally at her previous speed divided by this constant.)
+0
+
+0x4
+Horizontal braking acceleration?
+0
+
+0x8
+Vertical speed
+0
+
+0xC
+Gravity
+0
+
+0x10
+Max fall speed
+0
+
+*0x14
+Hitlag on hit (frames)
+1
+
+
+paramSpecialS__11ftPeachNode
+Peach Bomb
+0x0
+Unknown, read once on ground pullback
+0
+
+0x4
+Unknown, read once on ground pullback
+0
+
+0x8
+Unknown, read once on ground pullback
+0
+
+0xC
+Vertical boost during aerial pullback
+0
+
+0x10
+Launch distance (used on ground)
+0
+
+0x14
+Launch distance (used in air)
+0
+
+0x18
+Post-launch vertical boost
+0
+
+0x1C
+Post-launch
+0
+
+0x20
+Some sort of transition ratio between post-launch and ending gravities? (higher = more of the second?)
+0
+
+0x24
+Ending horizontal deceleration
+0
+
+0x28
+Ending gravity
+0
+
+0x2C
+Unknown, read on hit, controls direction of recoil
+0
+
+0x30
+Recoil vertical boost
+0
+
+0x34
+Unknown, something to do with ending
+0
+
+0x38
+Unknown, something to do with ending, when set low causes massive fall speed, when set high casues momentary floating
+0
+
+*0x3C
+No Description Available.
+1
+
+
+paramSpecialLw__11ftPeachNode
+Turnip Pull
+*0x0
+Odds of getting an item (i.e. a one in this chance)
+1
+
+
+paramSpecialHi__11ftPeachNode
+Parasol
+0x0
+Involves input window to directionalize launch (larger = harder)
+0
+
+0x4
+Amount to which the launch may be directed (larger = significantly more control)
+0
+
+0x8
+Launch height
+0
+
+0xC
+Unknown, read 1-3 times per frame during launch
+0
+
+0x10
+Unknown, read twice on aerial launch
+0
+
+0x14
+Floating horizontal acceleration
+0
+
+0x18
+Floating fall speed
+0
+
+0x1C
+Falling max horizontal speed
+0
+
+0x20
+Landing lag from falling state (frames?)
+0
+
+*0x24
+No Description Available.
+1
+
+
+paramUniqFloat__11ftPeachNode
+paramUniqFloat__11ftPeachNode
+*0x0 Float time (Frames)
+The amount of frames that Peach can float for after jumping twice.
+1
+
+
+paramFinal__11ftPeachNode
+Peach Blossom?
+0x0
+Unknown, read 3 times at startup
+0
+
+0x4
+Unknown, read 3 times at startup
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+
+paramSpecialUniqItemTable__11ftPeachNode
+Turnip Item Table
+*0x0
+Bob-bomb ID
+1
+
+0x4
+Relative odds of getting a Bob-bomb
+0
+
+*0x8
+Mr. Saturn ID
+1
+
+0xC
+Relative odds of getting a Mr. Saturn
+0
+
+*0x10
+Beam Sword ID
+1
+
+0x14
+Relative odds of getting a Beam Sword
+0
+
+
+ExtraParams8
+ExtraParams8
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+

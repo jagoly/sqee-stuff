@@ -1,0 +1,306 @@
+ExtraParams0
+Paralyzer
+0x0
+X offset
+0
+
+0x4
+Y offset
+0
+
+
+ExtraParams1
+Plasma Whip
+0x0
+No Description Available.
+0
+
+
+ExtraParams2
+ExtraParams2
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ExtraParams3
+ExtraParams3
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+
+ExtraParams8
+ExtraParams8
+*0x0 Count
+No Description Available.
+1
+
+*0x4 Offset
+Offsets to lookup entries, and then those offset to string offsets. Strings include "Capture" and "Thrown". This offset is regenerated automatically.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams10
+ExtraParams10
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+0x28
+No Description Available.
+0
+
+*0x2C
+No Description Available.
+1
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+0x38
+No Description Available.
+0
+
+*0x3C
+No Description Available.
+1
+
+*0x40
+No Description Available.
+1
+
+*0x44
+No Description Available.
+1
+
+0x48
+No Description Available.
+0
+
+*0x4C
+No Description Available.
+1
+
+*0x50
+No Description Available.
+1
+
+*0x54
+No Description Available.
+1
+
+0x58
+No Description Available.
+0
+
+*0x5C
+No Description Available.
+1
+
+*0x60
+No Description Available.
+1
+
+*0x64
+No Description Available.
+1
+
+0x68
+No Description Available.
+0
+
+*0x6C
+No Description Available.
+1
+
+*0x70
+No Description Available.
+1
+
+*0x74
+No Description Available.
+1
+
+0x78
+No Description Available.
+0
+
+*0x7C
+No Description Available.
+1
+
+
+ArticleType1_4
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_5
+Paralyzer Attribute
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+Uncharged lifetime
+1
+
+*0x1C
+Charged lifetime
+1
+
+
+ArticleType1_6
+Parameters
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+
+ArticleType1_7
+Parameters
+*0x0
+No Description Available.
+1
+
+

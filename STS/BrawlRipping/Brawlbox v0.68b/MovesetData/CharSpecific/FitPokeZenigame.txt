@@ -1,0 +1,309 @@
+ExtraParams0
+ExtraParams0
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+
+ExtraParams1
+Water Gun
+*0x0
+How many frames of charging to be considered full
+1
+
+0x4
+Initial angle of firing (in degrees)
+0
+
+0x8
+Max angle upwards
+0
+
+0xC
+Max angle down (higher is more angled down)
+0
+
+0x10
+Turning speed
+0
+
+0x14
+ ?? (read on water gun)
+0
+
+0x18
+ ?? (read on water gun)
+0
+
+*0x1C
+How many frames before not getting spray
+1
+
+0x20
+Momentum backwards
+0
+
+*0x24
+?? (read when firing water/spray)
+1
+
+
+ExtraParams2
+Withdraw
+0x0
+Initial momentum (start at GFX effect)
+0
+
+0x4
+Momentum in air?
+0
+
+0x8
+Momentum without holding direction?
+0
+
+0xC
+Momentum preservation without holding direction?
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+No Description Available.
+0
+
+0x3C
+No Description Available.
+0
+
+0x40
+No Description Available.
+0
+
+0x44
+No Description Available.
+0
+
+0x48
+No Description Available.
+0
+
+0x4C
+No Description Available.
+0
+
+*0x50
+No Description Available.
+1
+
+*0x54
+No Description Available.
+1
+
+*0x58
+No Description Available.
+1
+
+0x5C
+No Description Available.
+0
+
+0x60
+No Description Available.
+0
+
+0x64
+No Description Available.
+0
+
+
+ExtraParams3
+Waterfall
+0x0
+Joystick distance?
+0
+
+0x4
+Joystick distance?
+0
+
+0x8
+Directionalization distance (displacement, not angle)
+0
+
+0xC
+Special fall aerial mobility
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+
+ExtraParams4
+ExtraParams4
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+
+ExtraParams6
+ExtraParams6
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+ArticleType1_5
+Water Gun Attribute
+0x0
+Starting water gun speed
+0
+
+0x4
+Water gun speed multiplier
+0
+
+0x8
+Water gun gravity
+0
+
+0xC
+Water spacing?
+0
+
+*0x10
+Water dissapearing time
+1
+
+0x14
+Water gfx initial size
+0
+
+0x18
+Water gfx scaling
+0
+
+*0x1C
+?? (read on water gun)
+1
+
+

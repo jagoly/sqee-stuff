@@ -1,0 +1,402 @@
+ExtraParams0
+PK Freeze
+*0x0
+No Description Available.
+1
+
+*0x4
+How long after releasing B PK Freezes explodes
+1
+
+*0x8
+PK Freeze lifetime
+1
+
+0xC
+Aerial vert momentum on charge
+0
+
+0x10
+?? (read on release/PK freeze explosion)
+0
+
+*0x14
+?? (read on release/PK flash explosion)
+1
+
+
+ExtraParams1
+PK Fire
+*0x0
+Aerial vertical velocity
+1
+
+0x4
+Aerial horizontal velocity
+0
+
+0x8
+Grounded vertical velocity
+0
+
+0xC
+Horizontal ground speed
+0
+
+0x10
+X offset?
+0
+
+0x14
+Y offset of starting points
+0
+
+0x18
+No Description Available.
+0
+
+
+ExtraParams2
+PK Thunder
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+0x10
+No Description Available.
+0
+
+0x14
+UpB hold animation Falling acceleration
+0
+
+0x18
+PKT2 Momentum
+0
+
+0x1C
+PKT2 deacceleration rate
+0
+
+*0x20
+PKT2 deacceleration rate after hitting something, stacks with previous
+1
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+Landing lag duration (in frames)
+0
+
+
+ExtraParams3
+PSI Magnet
+*0x0
+Minimum frames magnet must stay out
+1
+
+*0x4
+Frames before gravity kicks in (?)
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+Gravity
+0
+
+0x14
+DMG Recovery multiplier
+0
+
+0x18
+Maximum damage recoverable
+0
+
+
+ExtraParams4
+ExtraParams4
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+
+ExtraParams5
+ExtraParams5
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams6
+ExtraParams6
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ArticleType1_7
+PK Freeze Attribute
+0x0
+DMG/Size multiplier? (less=larger gfx size but less dmg)
+0
+
+0x4
+Starting size
+0
+
+0x8
+Size multiplier
+0
+
+0xC
+PK Freeze horizontal momentum at all times
+0
+
+0x10
+PK Freeze rising height
+0
+
+0x14
+PK Freeze control
+0
+
+0x18
+PK Freeze gravity
+0
+
+0x1C
+ ?? (read on startup)
+0
+
+0x20
+ ?? (read on startup)
+0
+
+0x24
+How long after screen shake PK Freeze explodes
+0
+
+0x28
+Default dmg
+0
+
+0x2C
+Damage multiplier
+0
+
+
+ArticleType1_8
+PK Fire Attribute
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+Amount of time Spark stays out
+0
+
+0x18
+Amount of time pillars last
+0
+
+
+ArticleType1_9
+PK Thunder Attribute
+*0x0
+PKT Duration
+1
+
+0x4
+PKT speed
+0
+
+0x8
+PKT starting angle
+0
+
+0xC
+PKT turning control, lower number = higher amount of control
+0
+
+0x10
+PKT turning radius, higher number = tighter radius
+0
+
+*0x14
+No Description Available.
+1
+
+
+ArticleType1_10
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_11
+PK Starstorm Attribute
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+
+ArticleType1_12
+Parameters
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+
+ArticleType2_Entry
+Data3
+*0x0
+No Description Available.
+1
+
+

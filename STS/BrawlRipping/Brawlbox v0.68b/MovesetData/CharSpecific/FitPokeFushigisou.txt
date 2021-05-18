@@ -1,0 +1,165 @@
+ExtraParams0
+Fatigue/Stamina
+0x0
+Max stamina
+0
+
+0x4
+Fatigue Value decreased every second
+0
+
+0x8
+Fatigue value decreased per attack
+0
+
+0xC
+Fatigue value increased for every second pokemon is in pokeball
+0
+
+0x10
+kb multiplier at "weakest" stamina (0x24)
+0
+
+0x14
+Enter stamina wait animation (tired) when Fatigue falls below this value
+0
+
+0x18
+Fatigue multiplier when KO'd
+0
+
+0x1C
+Weakness multiplier
+0
+
+0x20
+Resistance multiplier
+0
+
+0x24
+"Weakest" stamina level
+0
+
+
+ExtraParams1
+Bullet Seed
+*0x0
+Frames between seeds
+1
+
+0x4
+Vertical momentum of article
+0
+
+0x8
+Article's starting Y Offset
+0
+
+*0xC
+How many frames you continue doing bullet seed after holding B
+1
+
+*0x10
+Max frames you can hold B to continue attacking
+1
+
+*0x14
+No Description Available.
+1
+
+
+ExtraParams2
+Razor Leaf
+0x0
+Tilt speed
+0
+
+*0x4
+Buffer (in frames) for differentiating tilt input from Smash input 
+1
+
+0x8
+Smash speed
+0
+
+*0xC
+Landing detection? (affects how the leaf interacts with the floor=
+1
+
+0x10
+X offset grounded
+0
+
+0x14
+Y offset grounded
+0
+
+0x18
+X offset aerial
+0
+
+0x1C
+Y offset aerial
+0
+
+
+ExtraParams3
+ExtraParams3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_4
+Razor Leaf Attribute
+*0x0
+Duration
+1
+
+0x4
+Travel distance
+0
+
+0x8
+Something with rotation??? (Causes jerkiness in rotation)
+0
+
+0xC
+Rotation angle??? (set to zero causes no rotation at all, can also cause jerkiness)
+0
+
+0x10
+Random Launch Trajectory upon spawn
+0
+
+*0x14
+No Description Available.
+1
+
+0x18
+Affects trajectory angles while in the air
+0
+
+0x1C
+Unsure, but a value higher than 1 causes random super-fast leaves
+0
+
+
+ArticleType1_5
+Bullet Seed Attribute
+*0x0
+Frame duration of article
+1
+
+0x4
+No Description Available.
+0
+
+
+ArticleType1_6
+Data3
+*0x0
+No Description Available.
+1
+
+

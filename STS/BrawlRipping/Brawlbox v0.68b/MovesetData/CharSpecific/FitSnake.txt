@@ -1,0 +1,592 @@
+ExtraParams0
+Grenade
+0x0
+Grenade horizontal gravity/air friction?
+0
+
+0x4
+Grenade vertical gravity/air friction?
+0
+
+0x8
+Forward angled horizontal momentum
+0
+
+0xC
+Forward angled vertical momentum
+0
+
+0x10
+Unangled horizontal momentum
+0
+
+0x14
+unangled vertical momentum
+0
+
+0x18
+Back angled horizontal momentum
+0
+
+0x1C
+Back angled vertical momentum
+0
+
+0x20
+Duck and cover animation range
+0
+
+*0x24
+No Description Available.
+1
+
+
+ExtraParams1
+ExtraParams1
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+*0x38
+No Description Available.
+1
+
+*0x3C
+No Description Available.
+1
+
+0x40
+No Description Available.
+0
+
+0x44
+No Description Available.
+0
+
+0x48
+No Description Available.
+0
+
+0x4C
+No Description Available.
+0
+
+
+ExtraParams2
+ExtraParams2
+*0x0
+No Description Available.
+1
+
+
+ExtraParams3
+ExtraParams3
+0x0
+No Description Available.
+0
+
+
+ExtraParams4
+ExtraParams4
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+*0x10
+No Description Available.
+1
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+0x1C
+No Description Available.
+0
+
+
+ExtraParams11
+ExtraParams11
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+*0x28
+No Description Available.
+1
+
+*0x2C
+No Description Available.
+1
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+
+ArticleType1_5
+Mine Attribute
+0x0
+No Description Available.
+0
+
+0x4
+How long before it dissapears (frames)
+3
+
+0x8
+Y offset? (read on mine lay)
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+
+ArticleType1_7
+Up Smash Attribute
+*0x0
+No Description Available.
+1
+
+0x4
+Default height
+0
+
+*0x8
+X offset
+1
+
+*0xC
+How long before they explode
+1
+
+0x10
+Height multiplier (affects default hight too)
+0
+
+0x14
+Height multiplier? (lower than default makes charged ones go lower)
+0
+
+0x18
+air friction going down?
+0
+
+0x1C
+?? (read on usmash firing)
+0
+
+0x20
+?? (read on usmash firing)
+0
+
+0x24
+?? (read on usmash firing)
+0
+
+0x28
+?? (read on usmash firing)
+0
+
+0x2C
+Affects time mortar turns?
+0
+
+0x30
+?? (read on usmash firing)
+0
+
+0x34
+horizontal momentum of mortars that go left/right
+0
+
+
+ArticleType1_9
+Cypher Attribute
+0x0
+Momentum preservation? (at 0 you don't drop before you rise)
+0
+
+0x4
+Momentum preservation? (at 0 you don't drop before you rise)
+0
+
+0x8
+?? (read when cyphering)
+0
+
+0xC
+?? (read when cyphering)
+0
+
+0x10
+Mobility
+0
+
+0x14
+?? (read when cyphering)
+0
+
+0x18
+Vertical momentum preservation (double jump cypher preservation)
+0
+
+0x1C
+?? (read when cyphering)
+0
+
+0x20
+?? (read when cyphering)
+0
+
+*0x24
+Y offset of cypher when released
+1
+
+0x28
+Speed of cypher flying away
+0
+
+0x2C
+?? (read when letting go of cypher)
+0
+
+*0x30
+How many frames before it disappears? (read when breaking from cypher; freezes at 1)
+1
+
+0x34
+?? (read when cyphering)
+0
+
+
+ArticleType1_10
+paramSnakeC4__13wnSnakeC4Node
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+3
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+*0x2C
+No Description Available.
+1
+
+
+ArticleType1_13
+paramSnakeNikitaMissile__24wnSnakeNikitaMissileNode
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+*0x2C
+No Description Available.
+1
+
+*0x30
+No Description Available.
+1
+
+0x34
+No Description Available.
+0
+
+*0x38
+No Description Available.
+1
+
+0x3C
+No Description Available.
+0
+
+*0x40
+No Description Available.
+1
+
+*0x44
+No Description Available.
+1
+
+0x48
+No Description Available.
+0
+
+0x4C
+No Description Available.
+0
+
+*0x50
+No Description Available.
+1
+
+*0x54
+No Description Available.
+1
+
+
+ArticleType1_14
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_15
+paramSnakeRgb6__15wnSnakeRgb6Node
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+
+ArticleType1_16
+paramSnakeRgb6Sight__20wnSnakeRgb6SightNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+
+ArticleType1_17
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_18
+paramSnakeRgb6Bullet__21wnSnakeRgb6BulletNode
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+

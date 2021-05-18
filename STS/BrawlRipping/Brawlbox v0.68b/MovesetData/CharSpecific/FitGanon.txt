@@ -1,0 +1,124 @@
+paramGanonPunch__11ftGanonNode
+Warlock Punch
+0x0
+?? (read on punch)
+0
+
+0x4
+?? (read on punch)
+0
+
+0x8
+?? (read on punch)
+0
+
+0xC
+Momentum forward in air
+0
+
+0x10
+Momentum from holding up
+0
+
+*0x14
+No Description Available.
+1
+
+
+paramGanonExplosion__11ftGanonNode
+Flame Choke
+0x0
+Flame Choke Grab Slide
+0
+
+0x4
+Aerial flame choke miss gravity
+0
+
+0x8
+Aerial flame choke miss gravity related
+0
+
+0xC
+Landing lag (frames)
+0
+
+0x10
+Unknown, involves moment on aerial grab
+0
+
+0x14
+Vertical momentum on dragging down (0x10 plays role as well)
+0
+
+0x18
+Grab plummet speed ratio
+0
+
+0x1C
+Grab plummet acceleration ratio
+0
+
+
+paramGanonSpecialHi__11ftGanonNode
+Dark Dive
+*0x0
+Unknown, cannot control if negative
+1
+
+0x4
+Leaping horizontal acceleration ratio
+0
+
+0x8
+Falling horizontal max speed ratio
+0
+
+0xC
+Unknown, read once on leap
+0
+
+0x10
+Unknown, read once on leap
+0
+
+0x14
+Unknown, read once on leap
+0
+
+0x18
+Unknown, read once on leap
+0
+
+0x1C
+Post-release gravity ratio
+0
+
+
+paramGanonKick__11ftGanonNode
+Wizkick
+0x0
+Speed modifier on hit
+0
+
+*0x4
+Unknown, reads on startup and at start of ground-ground ending
+1
+
+0x8
+Ground-ground ending lag modifier
+0
+
+0xC
+Aerial-landing lag modifier
+0
+
+0x10
+Unknown, aerial-landing related
+0
+
+0x14
+No Description Available.
+0
+
+

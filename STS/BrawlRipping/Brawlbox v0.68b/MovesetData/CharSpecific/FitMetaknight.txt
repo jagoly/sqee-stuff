@@ -1,0 +1,164 @@
+paramSpecialN__16ftMetaknightNode
+Mach Tornado
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+Maximum spin speed?
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+Grounded horizontal speed
+0
+
+0x14
+Horizontal acceleration
+0
+
+0x18
+Aerial horizontal speed
+0
+
+0x1C
+Horizontal braking acceleration?
+0
+
+0x20
+Gravity modifier
+0
+
+0x24
+Fall speed
+0
+
+0x28
+vertical acceleration boost on b press?
+0
+
+*0x2C
+related to button input, harder higher
+1
+
+0x30
+button press bosst vertical acceleration?
+0
+
+0x34
+Related to timing
+0
+
+0x38
+Starting spin speed?
+0
+
+0x3C
+No Description Available.
+0
+
+*0x40
+No Description Available.
+1
+
+0x44
+No Description Available.
+0
+
+0x48
+Final spin speed? (when spin speed drops to this the move ends)
+0
+
+*0x4C
+No Description Available.
+1
+
+
+paramSpecialS__16ftMetaknightNode
+Drill Rush
+0x0
+Starting horizontal momentum
+0
+
+0x4
+Starting vertical momentum in air
+0
+
+0x8
+Starting vertical momentum in air again?
+0
+
+0xC
+Control
+0
+
+*0x10
+Something to do with direction after landing on platform and finishing
+1
+
+*0x14
+No Description Available.
+1
+
+
+paramSpecialLw__16ftMetaknightNode
+Dimensional Cape
+0x0
+Horizontal boost
+0
+
+0x4
+Vertical boost
+0
+
+0x8
+Horizontal momentum preservation on startup
+0
+
+0xC
+also horizontal acceleration?
+0
+
+0x10
+vertical acceleration
+0
+
+0x14
+also vertical acceleration
+0
+
+
+paramFinal__16ftMetaknightNode
+paramFinal__16ftMetaknightNode
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+

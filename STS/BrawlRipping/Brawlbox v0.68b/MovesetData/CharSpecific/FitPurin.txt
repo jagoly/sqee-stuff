@@ -1,0 +1,225 @@
+paramPurinSpecialN__11ftPurinNode
+Rollout
+*0x0
+How many frames you roll around
+1
+
+*0x4
+?? (frame count for something?)
+1
+
+0x8
+Gravity
+0
+
+0xC
+Fall speed
+0
+
+0x10
+Friction?
+0
+
+0x14
+Acceleration
+0
+
+0x18
+Something with acceleration/speed
+0
+
+0x1C
+Something with acceleration/speed
+0
+
+0x20
+?? (read in air)
+0
+
+0x24
+Aerial horizontal control acceleration (read in air, negative = forward and positive = backward) 
+0
+
+0x28
+Min Aerial Horizontal speed (momentum forward in air/momentum preservation in air) 
+0
+
+0x2C
+?? (read in air)
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+Rotation animation speed while pivoting or after hit
+0
+
+*0x3C
+No Description Available.
+1
+
+0x40
+No Description Available.
+0
+
+0x44
+No Description Available.
+0
+
+0x48
+No Description Available.
+0
+
+0x4C
+Bonus damage: +3x to fast
+0
+
+0x50
+Damage multiplier: (4% base for fast)
+0
+
+0x54
+Horizontal recoil on hit
+0
+
+0x58
+Vertical recoil on hit
+0
+
+0x5C
+Horizontal ending slide
+0
+
+0x60
+No Description Available.
+0
+
+0x64
+Rolling animation speed
+0
+
+*0x68
+No Description Available.
+1
+
+0x6C
+Inital roll power (min 40.0--see friction)
+0
+
+0x70
+Max roll power (min 40.0 -- see friction)
+0
+
+0x74
+Roll power saved per frame
+0
+
+0x78
+Initial charge animation speed
+0
+
+0x7C
+No Description Available.
+0
+
+*0x80
+Increasing it cuts short distance traveled. Friction related?
+1
+
+0x84
+Friction. (Subtracted from roll speed)
+0
+
+0x88
+Aerial rolling animation speed
+0
+
+0x8C
+Somehow linearly affects roll speed. Affects aerial speed more.
+0
+
+0x90
+Pivot acceleration
+0
+
+0x94
+Degree of influce slopes have on speed
+0
+
+0x98
+Minimum speed required for sparkle graphics
+0
+
+0x9C
+No Description Available.
+0
+
+0xA0
+Rebound speed multiplier
+0
+
+0xA4
+Landing lag (post-recoil)
+0
+
+
+paramPurinSpecialS__11ftPurinNode
+Pound
+0x0
+Something to do with window to directionalize; when set high, can't angle 
+0
+
+0x4
+Something to do with window to directionalize; when set high or low, can't angle 
+0
+
+0x8
+Modification angle
+0
+
+0xC
+Gravity before punch
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+Momentum forward (Aerial distance?)
+0
+
+0x18
+Aerial decay rate
+0
+
+*0x1C
+No Description Available.
+1
+
+
+paramPurinFinal__11ftPurinNode
+Puff Up
+0x0
+Size
+0
+
+0x4
+Inflation time (frames)
+0
+
+0x8
+Max size time (frames)
+0
+
+0xC
+Deflation time (frames, interrupts at 120 if larger and keeps current size)
+0
+
+

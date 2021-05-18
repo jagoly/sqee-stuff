@@ -1,0 +1,250 @@
+paramIkeSpecialN__9ftIkeNode
+Eruption
+*0x0
+Charge time (seconds?)
+1
+
+*0x4
+Base damage
+1
+
+*0x8
+Damage per second of charge
+1
+
+0xC
+Aerial horizontal momentum ratio
+0
+
+0x10
+Aerial horizontal deceleration
+0
+
+0x14
+Fully charged self damage
+0
+
+
+paramIkeSpecialS__9ftIkeNode
+Quickdraw
+*0x0
+Charge time for maximum damage
+1
+
+*0x4
+Charge time for Maximum distance
+1
+
+0x8
+Base grounded travel speed (affects distance)
+0
+
+0xC
+Base aerial travel speed (affect distance)
+0
+
+0x10
+Grounded travel speed multiplier (per charge frame)
+0
+
+0x14
+Aerial travel speed multiplier (per charge frame)
+0
+
+0x18
+Grounded friction
+0
+
+0x1C
+Aerial friction
+0
+
+*0x20
+Travel time (frames)
+1
+
+0x24
+Unknown, read once on hit
+0
+
+0x28
+Unknown, read once on hit
+0
+
+0x2C
+Damage growth rate (per charge frame)
+0
+
+0x30
+Grounded ending horizontal momentum ratio
+0
+
+0x34
+Aerial ending horizontal momentum ratio
+0
+
+0x38
+Falling startup boost
+0
+
+0x3C
+Unknown, read twice on startup
+0
+
+0x40
+Unknown, read twice on startup
+0
+
+0x44
+Unknown, read twice on startup
+0
+
+
+paramIkeSpecialHi__9ftIkeNode
+Aether
+0x0
+Aerial jump height ratio (relative to ground version)
+0
+
+0x4
+Unknown, read once on startup and jump
+0
+
+0x8
+Unknown, read once on startup and jump 
+0
+
+*0xC
+Unknown, read once on sword regrab
+1
+
+
+paramIkeSpecialLw__9ftIkeNode
+Counter
+0x0
+Aerial horizontal momentum preservation
+0
+
+0x4
+Aerial friction
+0
+
+0x8
+Gravity
+0
+
+0xC
+Counter max fall speed
+0
+
+0x10
+Damage multiplier
+0
+
+0x14
+unknown, read on activation
+0
+
+*0x18
+Freeze frames on hit
+1
+
+0x1C
+Minimum damage
+0
+
+0x20
+Maximum damage
+0
+
+0x24
+unknown, read on activation
+0
+
+
+paramIkeSpecialLwShield__9ftIkeNode
+Counter extra data?
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+
+paramIkeFinal__9ftIkeNode
+Great Aether
+0x0
+No Description Available.
+0
+
+0x4
+X offset of sword gfx?
+0
+
+0x8
+Y offser of sword gfx?
+0
+
+0xC
+How high from opponent Ike is when doing hits?
+0
+
+0x10
+Ike falling speed (does not affect opponent)
+0
+
+0x14
+?? (read on hit; horizontal momentum?)
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+Frames before grabbing sword?
+1
+
+0x20
+Rising speed
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+

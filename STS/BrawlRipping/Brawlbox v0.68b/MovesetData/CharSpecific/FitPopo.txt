@@ -1,0 +1,719 @@
+paramSpecialN__10ftPopoNode
+paramSpecialN__10ftPopoNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+
+paramSpecialLw__10ftPopoNode
+paramSpecialLw__10ftPopoNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+
+paramSpecialS__10ftPopoNode
+paramSpecialS__10ftPopoNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+No Description Available.
+0
+
+0x3C
+No Description Available.
+0
+
+0x40
+No Description Available.
+0
+
+0x44
+No Description Available.
+0
+
+*0x48
+No Description Available.
+1
+
+0x4C
+No Description Available.
+0
+
+0x50
+No Description Available.
+0
+
+*0x54
+No Description Available.
+1
+
+
+paramSpecialHi__10ftPopoNode
+paramSpecialHi__10ftPopoNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+No Description Available.
+0
+
+0x3C
+No Description Available.
+0
+
+0x40
+No Description Available.
+0
+
+0x44
+No Description Available.
+0
+
+0x48
+No Description Available.
+0
+
+0x4C
+No Description Available.
+0
+
+0x50
+No Description Available.
+0
+
+0x54
+No Description Available.
+0
+
+
+paramSpecialHiPartner__10ftPopoNode
+paramSpecialHiPartner__10ftPopoNode
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+
+paramFinal__10ftPopoNode
+paramFinal__10ftPopoNode
+0x0
+No Description Available.
+0
+
+
+ExtraParams10
+ExtraParams10
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+*0x28
+No Description Available.
+1
+
+*0x2C
+No Description Available.
+1
+
+
+ExtraParams17
+ExtraParams17
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+
+ArticleType1_12
+Blizzard Attribute
+0x0
+Distance/speed
+0
+
+0x4
+Angle (degrees)
+0
+
+0x8
+Something with angle
+0
+
+0xC
+Something with angle?
+0
+
+
+ArticleType1_13
+Ice Blocks Attribute
+0x0
+Speed
+0
+
+0x4
+Speed increase over time?
+0
+
+*0x8
+Y offset it starts to travel at
+1
+
+0xC
+Something with rising and vertical momentum
+0
+
+0x10
+Gravity
+0
+
+*0x14
+Frame count for something?
+1
+
+*0x18
+Frame count for something?
+1
+
+*0x1C
+Frame count for something?
+1
+
+0x20
+Ice block size reduction
+0
+
+0x24
+Damage multiplier
+0
+
+*0x28
+Frame count for something?
+1
+
+*0x2C
+How many frames before they delete
+1
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+No Description Available.
+0
+
+*0x3C
+No Description Available.
+1
+
+*0x40
+No Description Available.
+1
+
+0x44
+No Description Available.
+0
+
+
+ArticleType1_14
+Iceberg Attribute
+*0x0
+?? (read on hand clap)
+1
+
+*0x4
+How many frames before iceberg rises
+1
+
+0x8
+Iceberg rising speed
+0
+
+*0xC
+How many frames iceberg is out
+1
+
+0x10
+??
+0
+
+0x14
+?? (32 makes it almost instant)
+0
+
+*0x18
+?? (read on descent)
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+*0x28
+No Description Available.
+1
+
+*0x2C
+No Description Available.
+1
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+*0x38
+No Description Available.
+1
+
+*0x3C
+No Description Available.
+1
+
+
+ArticleType2_Entry
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_15
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_16
+Parameters
+0x0
+No Description Available.
+0
+
+
+ArticleType1_12/ExtraParams0
+ExtraParams0
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+
+ArticleType1_13/ExtraParams0
+ExtraParams0
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+*0x8
+No Description Available.
+1
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+*0x14
+No Description Available.
+1
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+*0x28
+No Description Available.
+1
+
+*0x2C
+No Description Available.
+1
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+No Description Available.
+0
+
+*0x3C
+No Description Available.
+1
+
+*0x40
+No Description Available.
+1
+
+0x44
+No Description Available.
+0
+
+
+ArticleType1_14/ExtraParams0
+ExtraParams0
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+*0x28
+No Description Available.
+1
+
+*0x2C
+No Description Available.
+1
+
+*0x30
+No Description Available.
+1
+
+*0x34
+No Description Available.
+1
+
+*0x38
+No Description Available.
+1
+
+*0x3C
+No Description Available.
+1
+
+
+ArticleType1_14/ExtraParams3
+ExtraParams3
+0x0
+No Description Available.
+3
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+1
+
+
+ArticleType2_Entry/Data3
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_15/ExtraParams0
+ExtraParams0
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_16/ExtraParams0
+ExtraParams0
+0x0
+No Description Available.
+0
+
+

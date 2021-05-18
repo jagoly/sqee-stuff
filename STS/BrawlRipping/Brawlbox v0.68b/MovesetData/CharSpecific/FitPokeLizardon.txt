@@ -1,0 +1,233 @@
+ExtraParams0
+ExtraParams0
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+
+ExtraParams1
+Flamethrower
+0x0
+Initial angle
+0
+
+0x4
+Flame spread randomness
+0
+
+0x8
+Max angle upwards
+0
+
+0xC
+Max angle downwards
+0
+
+0x10
+Turning speed
+0
+
+0x14
+Turning speed/max rotation?
+0
+
+*0x18
+Amount of frames spent firing after releasing B
+1
+
+0x1C
+Max Speed / Distance Charge
+0
+
+0x20
+Min Speed / Distance Charge
+0
+
+0x24
+Max Size Charge
+0
+
+0x28
+Min Size Charge
+0
+
+0x2C
+Speed / Distance Recharge Rate 
+0
+
+0x30
+Size Recharge Rate
+0
+
+0x34
+Speed / Distance Drain Rate
+0
+
+0x38
+Size Drain Rate
+0
+
+*0x3C
+Frame count for something?
+1
+
+*0x40
+Frames between flames (smaller = more rumble)
+1
+
+0x44
+How far away flame starts horizontally
+0
+
+0x48
+How far away flame starts horizontally
+0
+
+0x4C
+No Description Available.
+0
+
+
+ExtraParams2
+Rock Smash
+0x0
+No Description Available.
+0
+
+
+ExtraParams3
+Fly
+0x0
+?? (read on upB)
+0
+
+0x4
+?? (read on upB)
+0
+
+0x8
+?? (100 makes you move left/right and down)
+0
+
+0xC
+How much you can slide on landing
+0
+
+0x10
+?? (read on upB)
+0
+
+
+ExtraParams4
+FlyExtra?
+0x0
+?? (read on upB)
+0
+
+0x4
+?? (read on upB)
+0
+
+0x8
+No Description Available.
+0
+
+
+ArticleType1_5
+FlameThrower Attribute
+0x0
+Landing Detection
+0
+
+*0x4
+Frame count before hitboxes (only) are deleted
+1
+
+*0x8
+Frame count for something
+1
+
+0xC
+Flame speed
+0
+
+0x10
+Horizontal momentum of flames
+0
+
+*0x14
+No Description Available.
+1
+
+
+ArticleType1_6
+RockSmash Attribute
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+

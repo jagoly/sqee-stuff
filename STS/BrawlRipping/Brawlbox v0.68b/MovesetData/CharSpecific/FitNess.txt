@@ -1,0 +1,426 @@
+ExtraParams0
+PK Flash
+*0x0
+No Description Available.
+1
+
+*0x4
+How long after releasing B PK Flash explodes
+1
+
+*0x8
+PK Flash lifetime
+1
+
+0xC
+Aerial vert momentum on charge
+0
+
+0x10
+?? (Read on release/PK Flash explosion)
+0
+
+*0x14
+?? (Read on release/PK Flash explosion)
+1
+
+
+ExtraParams1
+PK Fire
+0x0
+Aerial Vertical Velocity
+0
+
+0x4
+Aerial Horizontal Velocity
+0
+
+0x8
+Grounded vertical Velocity
+0
+
+0xC
+Horizontal Ground speed
+0
+
+0x10
+X offset?
+0
+
+0x14
+Y offset of starting point
+0
+
+0x18
+?? (read when spark is generated)
+0
+
+
+ExtraParams2
+PK Thunder
+0x0
+?? (read on startup)
+0
+
+*0x4
+How long you continue doing the PKT hold anim after it dies?
+1
+
+*0x8
+Same as 0x4?
+1
+
+*0xC
+How long before you fall during upB hold in air?
+1
+
+0x10
+Something with falling speed initially
+0
+
+0x14
+upB hold falling acceleration
+0
+
+0x18
+PKT2 momentum
+0
+
+0x1C
+PKT2 deceleration rate
+0
+
+0x20
+PKT2 deceleration rate after hitting something, stacks with previous
+0
+
+0x24
+?? (read on PKT2)
+0
+
+0x28
+??(read on PKT2 end)
+0
+
+0x2C
+Landing lag duration (in frames)
+0
+
+
+ExtraParams3
+PSI Magnet
+*0x0
+How many frames after releasing B you continue to hold it
+1
+
+*0x4
+?? (read on startup)
+1
+
+0x8
+Something with momentum preservation?
+0
+
+0xC
+Something with momentum preservation?
+0
+
+0x10
+Falling speed
+0
+
+0x14
+Damage recovery factor
+0
+
+0x18
+Maximun damage recoverable
+0
+
+
+ExtraParams4
+ExtraParams4
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+*0xC
+No Description Available.
+1
+
+0x10
+No Description Available.
+0
+
+
+ExtraParams5
+ExtraParams5
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams6
+Bat Swing?
+*0x0
+Break threshold?
+1
+
+0x4
+Reflection bubble X pos?
+0
+
+*0x8
+Reflection bubble Y pos?
+1
+
+0xC
+Reflection bubble Z pos?
+0
+
+0x10
+Reflection bubble Z pos?
+0
+
+0x14
+Reflection bubble size?
+0
+
+0x18
+Reflection damage multiplier?
+0
+
+0x1C
+Reflection speed multiplier?
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ArticleType1_7
+PK Flash Attribute
+0x0
+DMG/Size multiplier? (less=larger gfx size but less dmg)
+0
+
+0x4
+Starting size
+0
+
+0x8
+Size multiplier
+0
+
+0xC
+PK Flash horizontal momentum at all times
+0
+
+0x10
+PK Flash rising height
+0
+
+0x14
+PK Flash control
+0
+
+0x18
+PK Flash gravity
+0
+
+0x1C
+?? (read on startup)
+0
+
+0x20
+?? (read on startup)
+0
+
+0x24
+How long after screen shake PK Flash explodes
+0
+
+0x28
+Default dmg
+0
+
+0x2C
+Damage multiplier
+0
+
+
+ArticleType1_8
+PK Fire Attribute
+*0x0
+Spark lifetime
+1
+
+*0x4
+Pillar lifetime
+1
+
+0x8
+Pillar vert momentum on first hit
+0
+
+0xC
+?? (read when spark is generated)
+0
+
+0x10
+?? (read when spark is generated)
+0
+
+0x14
+Pillar vert momentum on loop hits?
+0
+
+0x18
+Pillar size multiplier on each hit?
+0
+
+
+ArticleType1_9
+PK Thunder Attribute
+0x0
+PKT Duration
+0
+
+0x4
+PKT speed
+0
+
+0x8
+PKT starting angle
+0
+
+0xC
+PKT turning control, lower number = higher amount of control
+0
+
+0x10
+PKT turning radius, higher number = tighter radius
+0
+
+*0x14
+No Description Available.
+1
+
+
+ArticleType1_10
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_11
+PK Starstorm Attribute
+0x0
+Base falling speed
+0
+
+0x4
+Additional falling speed
+0
+
+*0x8
+?? (freezes at 0)
+1
+
+
+ArticleType1_12
+PK Starstorm 2 Attribute
+*0x0
+?? (read on starstorm)
+1
+
+*0x4
+?? (read on starstorm)
+1
+
+0x8
+No Description Available.
+0
+
+
+ArticleType1_13
+PK Starstorm 3 Attribute
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+

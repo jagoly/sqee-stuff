@@ -1,0 +1,424 @@
+ExtraParams0
+ExtraParams0
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+*0x20
+No Description Available.
+1
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+*0x2C
+No Description Available.
+1
+
+
+paramDededeWdThrow__12ftDededeNode
+Waddle Toss
+0x0
+Base throw speed
+0
+
+0x4
+Strong throw ratio
+0
+
+0x8
+Default throw angle
+0
+
+0xC
+Downward angle
+0
+
+0x10
+Upward angle
+0
+
+*0x14
+Max number of minions
+1
+
+0x18
+Relative odds of throwing a Waddle Dee
+0
+
+0x1C
+Relative odds of throwing a Waddle Doo
+0
+
+0x20
+Relative odds of throwing a Gordo
+0
+
+0x24
+Relative odds of throwing a Capsule
+0
+
+*0x28
+?? (read on waddle toss)
+1
+
+0x2C
+?? (read on waddle toss)
+0
+
+
+paramDededeSuperJump__12ftDededeNode
+Super Dedede Jump
+0x0
+Horizontal boost on startup
+0
+
+0x4
+Vertical momentum on startup
+0
+
+0x8
+Gravity on startup
+0
+
+0xC
+Horizontal movement ratio
+0
+
+0x10
+Vertical momentum on travel
+0
+
+0x14
+Bonus gravity
+0
+
+0x18
+Launch vertical velocity
+0
+
+0x1C
+Launch vertical velocity
+0
+
+*0x20
+Height
+1
+
+*0x24
+?? (read on upB normal landing)
+1
+
+0x28
+X offset of right buttstar
+0
+
+0x2C
+Y offset of right buttstar
+0
+
+0x30
+X offset of left buttstar
+0
+
+0x34
+Y offset of left buttstar
+0
+
+
+paramDededeJetHammer__12ftDededeNode
+Jet Hammer
+0x0
+Charging walk speed
+0
+
+*0x4
+Time to fully charge (frames)
+1
+
+0x8
+Charge multiplier
+0
+
+*0xC
+Frame interval of self-damage?
+1
+
+*0x10
+Full charge hold self-damage limit
+1
+
+*0x14
+No Description Available.
+1
+
+
+paramDededeFinal__12ftDededeNode
+paramDededeFinal__12ftDededeNode
+*0x0
+How long before the next minion comes out
+1
+
+*0x4
+X offset?
+1
+
+*0x8
+Max minions
+1
+
+*0xC
+Max number of dances before FS ending?
+1
+
+*0x10
+?? (read on FS)
+1
+
+0x14
+Waddle Dee ratio
+0
+
+0x18
+Waddle Doo ratio
+0
+
+0x1C
+Gordo ratio
+0
+
+*0x20
+Read (read on FS)
+1
+
+0x24
+Read (read on FS)
+0
+
+*0x28
+Read (read on FS)
+1
+
+0x2C
+Gordo bounce height?
+0
+
+
+addAreaDataSet__12ftDededeNode
+addAreaDataSet__12ftDededeNode
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+
+ArticleType1_8
+Parameters
+*0x0
+No Description Available.
+1
+
+
+ArticleType2_10
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_6
+Parameters
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+
+ArticleType1_12
+Inhale Attribute
+0x0
+Speed of star shot
+0
+
+0x4
+Speed deceleration
+0
+
+0x8
+Spinning speed
+0
+
+0xC
+X offset?
+0
+
+0x10
+Y offset
+0
+
+0x14
+No Description Available.
+0
+
+
+ArticleType1_14
+Parameters
+0x0
+No Description Available.
+3
+
+0x4
+No Description Available.
+3
+
+0x8
+No Description Available.
+3
+
+0xC
+No Description Available.
+3
+
+0x10
+No Description Available.
+3
+
+0x14
+No Description Available.
+3
+
+0x18
+No Description Available.
+3
+
+0x1C
+No Description Available.
+3
+
+0x20
+No Description Available.
+3
+
+0x24
+No Description Available.
+3
+
+0x28
+No Description Available.
+3
+
+0x2C
+No Description Available.
+3
+
+0x30
+No Description Available.
+3
+
+0x34
+No Description Available.
+3
+
+0x38
+No Description Available.
+3
+
+0x3C
+No Description Available.
+3
+
+0x40
+No Description Available.
+3
+
+0x44
+No Description Available.
+3
+
+0x48
+No Description Available.
+3
+
+0x4C
+No Description Available.
+3
+
+0x50
+No Description Available.
+3
+
+0x54
+No Description Available.
+3
+
+0x58
+No Description Available.
+3
+
+0x5C
+No Description Available.
+3
+
+0x60
+No Description Available.
+3
+
+0x64
+No Description Available.
+3
+
+0x68
+No Description Available.
+3
+
+0x6C
+No Description Available.
+3
+
+
+ArticleType2_Entry
+Data3
+*0x0
+No Description Available.
+1
+
+

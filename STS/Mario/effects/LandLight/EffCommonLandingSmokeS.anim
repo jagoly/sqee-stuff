@@ -1,0 +1,122 @@
+animVersion 1.1;
+mayaVersion 2015;
+timeUnit ntscf;
+linearUnit cm;
+angularUnit deg;
+startTime 0;
+endTime 6;
+anim scale.scaleX scaleX smokeA 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0.2 fixed fixed 1 1 0 7.046587 1 7.046587 1;
+    6 0.8 fixed fixed 1 1 0 1.638843 1 1.638843 1;
+  }
+}
+anim scale.scaleY scaleY smokeA 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0.5 fixed fixed 1 1 0 26.56505 1 26.56505 1;
+    1 1 fixed fixed 1 1 0 -8.530766 1 -8.530766 1;
+    2 0.2 fixed fixed 1 1 0 -21.80141 1 -21.80141 1;
+    3 0.2 fixed fixed 1 1 0 0 1 0 1;
+    6 0.2 fixed fixed 1 1 0 0 1 0 1;
+  }
+}
+anim scale.scaleZ scaleZ smokeA 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0.2 fixed fixed 1 1 0 7.046587 1 7.046587 1;
+    6 0.8 fixed fixed 1 1 0 1.638843 1 1.638843 1;
+  }
+}
+anim scale.scaleX scaleX smokeC 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0.3 fixed fixed 1 1 0 8.530766 1 8.530766 1;
+    5 0.75 fixed fixed 1 1 0 0 1 0 1;
+    6 0.75 fixed fixed 1 1 0 0 1 0 1;
+  }
+}
+anim scale.scaleY scaleY smokeC 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0.3 fixed fixed 1 1 0 8.530766 1 8.530766 1;
+    5 0.75 fixed fixed 1 1 0 0 1 0 1;
+    6 0.75 fixed fixed 1 1 0 0 1 0 1;
+  }
+}
+anim scale.scaleZ scaleZ smokeC 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0.3 fixed fixed 1 1 0 8.530766 1 8.530766 1;
+    5 0.75 fixed fixed 1 1 0 0 1 0 1;
+    6 0.75 fixed fixed 1 1 0 0 1 0 1;
+  }
+}
+anim rotate.rotateX rotateX smokeC 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 fixed fixed 1 1 0 0 1 0 1;
+  }
+}
+anim rotate.rotateY rotateY smokeC 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 fixed fixed 1 1 0 89.04516 1 89.04516 1;
+    2 119.956 fixed fixed 1 1 0 89.04516 1 89.04516 1;
+    3 179.9561 fixed fixed 1 1 0 88.09085 1 88.09085 1;
+    4 179.9561 fixed fixed 1 1 0 0 1 0 1;
+    6 179.9561 fixed fixed 1 1 0 0 1 0 1;
+  }
+}
+anim rotate.rotateZ rotateZ smokeC 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    0 0 fixed fixed 1 1 0 0 1 0 1;
+  }
+}

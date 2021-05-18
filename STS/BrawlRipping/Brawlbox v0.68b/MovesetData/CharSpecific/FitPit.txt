@@ -1,0 +1,437 @@
+ExtraParams0
+Arrows
+0x0
+No Description Available.
+0
+
+*0x4
+Max charge time
+1
+
+0x8
+Joystick sensitivity backwards
+0
+
+0xC
+Joystick sensitivity upwards
+0
+
+
+ExtraParams1
+Angle Ring
+*0x0
+Something with how long it's out at startup?
+1
+
+0x4
+Something with how long it stays out after startup?
+0
+
+0x8
+Something with how long it stays out after startup? (less = more)
+0
+
+0xC
+Something with how long it stays out after startup? (Might affect button mashing)
+0
+
+0x10
+How many seconds you can hold angle ring
+0
+
+0x14
+?? (read on button tap of ring hold)
+0
+
+0x18
+?? (read on startup)
+0
+
+*0x1C
+?? (read on startup)
+1
+
+
+ExtraParams2
+Wings of Icarus
+0x0
+Momentum preservation
+0
+
+0x4
+Initial vertical momentum
+0
+
+*0x8
+how many frames waiting above ground until landing
+1
+
+0xC
+momentum going left/right
+0
+
+0x10
+Momentum going up
+0
+
+0x14
+No Description Available.
+0
+
+0x18
+Gravity
+0
+
+0x1C
+Momentum going up
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+Gravity?
+0
+
+0x2C
+No Description Available.
+0
+
+*0x30
+Flying time (frames)
+1
+
+0x34
+Wing flap speed going up
+0
+
+0x38
+Wing flap speed going down
+0
+
+*0x3C
+No Description Available.
+1
+
+0x40
+No Description Available.
+0
+
+*0x44
+No Description Available.
+1
+
+
+ExtraParams3
+Mirror Shield
+0x0
+No Description Available.
+0
+
+*0x4
+amount of time it can be out (frames)
+1
+
+*0x8
+amount of time before you stand up
+1
+
+0xC
+ ?? (higher than 1 you jitter when aiming and can possibly freeze)
+0
+
+0x10
+Something to do with reflection distance?
+0
+
+*0x14
+Frame count of something?
+1
+
+0x18
+?? (read all the time)
+0
+
+0x1C
+?? (read all the time)
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ExtraParams4
+ExtraParams4
+0x0
+No Description Available.
+0
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+*0x10
+No Description Available.
+1
+
+0x14
+No Description Available.
+0
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+
+ExtraParams7
+ExtraParams7
+*0x0
+No Description Available.
+1
+
+*0x4
+No Description Available.
+1
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+No Description Available.
+0
+
+*0x18
+No Description Available.
+1
+
+*0x1C
+No Description Available.
+1
+
+
+ExtraParams8
+Angle Ring Article Attack
+*0x0
+Unknown
+1
+
+0x4
+Break threshold?
+0
+
+*0x8
+Reflection bubble X pos?
+1
+
+*0xC
+Reflection bubble Y pos?
+1
+
+*0x10
+Reflection bubble Z pos?
+1
+
+0x14
+Reflection bubble size?
+0
+
+0x18
+Reflection damage multiplier
+0
+
+0x1C
+Reflection speed multiplier?
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ArticleType1_9
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_10
+Arrows Attribute
+*0x0
+angle at which side arrow initially shoots at
+1
+
+0x4
+side arrow speed
+0
+
+0x8
+angle at which the up arrow initially shoots at
+0
+
+0xC
+up arrow speed
+0
+
+0x10
+Arrow control radius
+0
+
+*0x14
+No Description Available.
+1
+
+0x18
+Base damage
+0
+
+0x1C
+Damage multiplier (extra damage per charging frame)
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+No Description Available.
+1
+
+
+ArticleType1_11
+Parameters
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+0x8
+No Description Available.
+0
+
+0xC
+No Description Available.
+0
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+0x20
+No Description Available.
+0
+
+0x24
+No Description Available.
+0
+
+0x28
+No Description Available.
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+
+ArticleType1_12
+Palutena's Army Attribute
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+*0x8
+No Description Available.
+1
+
+*0xC
+No Description Available.
+1
+
+*0x10
+No Description Available.
+1
+
+*0x14
+No Description Available.
+1
+
+0x18
+No Description Available.
+0
+
+0x1C
+No Description Available.
+0
+
+*0x20
+No Description Available.
+1
+
+*0x24
+No Description Available.
+1
+
+

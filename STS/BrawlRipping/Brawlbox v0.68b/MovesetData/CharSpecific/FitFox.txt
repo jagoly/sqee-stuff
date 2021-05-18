@@ -1,0 +1,288 @@
+ExtraParams0
+Laser
+0x0
+X offset grounded laser
+0
+
+0x4
+Y offset grounded laser
+0
+
+0x8
+X offset aerial laser
+0
+
+0xC
+Y offset aerial laser
+0
+
+*0x10
+Angle laser is fired at (degrees)
+1
+
+0x14
+Laser speed
+0
+
+*0x18
+Landing lag?
+1
+
+
+ExtraParams1
+Illusion
+*0x0
+?? (something with timing short distance?) 
+1
+
+0x4
+Grounded momentum preservation on startup (higher = less, avoid 0 will cause polygon explosion at random) 
+0
+
+0x8
+Aerial momentum preservation on startup? (higher = less, barely noticeable) 
+0
+
+0xC
+Aerial vertical momentum on startup 
+0
+
+0x10
+Affects grounded momentum preservation at end? (higher = less) 
+0
+
+0x14
+Grounded momentum preservation at end (less = more) 
+0
+
+0x18
+Affects aerial momentum preservation at end (higher = less) 
+0
+
+0x1C
+Aerial momentum preservation at end (less = more) 
+0
+
+*0x20
+?? (read on sideB moving) 
+1
+
+0x24
+Affects shortened sideB? 
+0
+
+0x28
+?? (read on sideB moving) 
+0
+
+*0x2C
+?? (read on sideB startup) 
+1
+
+
+ExtraParams2
+Firefox
+*0x0
+No Description Available.
+1
+
+0x4
+No Description Available.
+0
+
+0x8
+Aerial momentum preservation on startup? 
+0
+
+0xC
+Momentum on startup?
+0
+
+0x10
+No Description Available.
+0
+
+0x14
+Default angle? (radians)
+0
+
+*0x18
+How many frames before you stop travelling (does not affect distance past a certain point)
+1
+
+*0x1C
+No Description Available.
+1
+
+*0x20
+Something with distance?
+1
+
+0x24
+Speed of travel/distance travelled
+0
+
+0x28
+Max momentum
+0
+
+0x2C
+No Description Available.
+0
+
+0x30
+No Description Available.
+0
+
+0x34
+No Description Available.
+0
+
+0x38
+No Description Available.
+0
+
+*0x3C
+No Description Available.
+1
+
+
+ExtraParams3
+Reflector
+*0x0
+No Description Available.
+1
+
+*0x4
+Frames before 19424 takes effect
+1
+
+0x8
+Momentum preservation (lower = more momentum preserved)
+0
+
+0xC
+Aerial momentum downward (applies to startup and holding)
+0
+
+
+ExtraParams4
+Landmaster
+0x0
+No Description Available.
+0
+
+*0x4
+No Description Available.
+1
+
+
+ExtraParams5
+Reflector Extra
+*0x0
+No Description Available.
+1
+
+0x4
+Break threshold?
+0
+
+*0x8
+Reflection bubble X pos? 
+1
+
+0xC
+Reflection bubble Y pos? 
+0
+
+*0x10
+Reflection bubble Z pos? 
+1
+
+0x14
+Reflection bubble size?
+0
+
+0x18
+Reflection projectile damage multiplier
+0
+
+0x1C
+Reflection projectile speed multiplier
+0
+
+0x20
+No Description Available.
+0
+
+*0x24
+Reflector degrees? nr 1
+1
+
+
+ExtraParams6
+Reflector Degrees?
+0x0
+Reflector degrees? nr 2
+0
+
+0x4
+Reflector degrees? nr 3
+0
+
+0x8
+Reflector degrees? nr 4
+0
+
+0xC
+Reflector degrees? nr 5
+0
+
+
+ArticleType1_8
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_9
+Laser Attributes
+*0x0
+Laser Life (frames)
+1
+
+0x4
+Laser length
+0
+
+0x8
+Laser lengthning time? (higher = slower)
+0
+
+
+ArticleType1_10
+Illusion Attributes
+*0x0
+How many frames illusion gfx stays out
+1
+
+*0x4
+How many frames before GFX slow down
+1
+
+
+ArticleType1_11
+Data3
+*0x0
+No Description Available.
+1
+
+
+ArticleType1_12
+Parameters
+*0x0
+No Description Available.
+1
+
+
